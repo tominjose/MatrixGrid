@@ -1,0 +1,1 @@
+Matrix Pattern Animation in C# using Counter Threading and Matrix Grid example. The Application will display the matrix grid to form 2 to 8 and then back to 2.

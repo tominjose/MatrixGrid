@@ -1,0 +1,10 @@
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\bin\Release\MatrixGrid.exe.config
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\bin\Release\MatrixGrid.exe
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\bin\Release\MatrixGrid.pdb
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.csprojAssemblyReference.cache
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.Form1.resources
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.Properties.Resources.resources
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.csproj.GenerateResource.cache
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.csproj.CoreCompileInputs.cache
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.exe
+C:\Users\Tomin\source\repos\MatrixGrid\MatrixGrid\obj\Release\MatrixGrid.pdb
