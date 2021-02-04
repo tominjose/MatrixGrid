@@ -25,9 +25,9 @@ namespace MatrixGrid
 
         public int m_XOffset; //Offset from which drawing start
         public int m_YOffset;
-        public int rc = 9;
+        public int rc = 9, counter = 2;
         public const int DEFAULT_X_OFFSET = 74;
-        public const int DEFAULT_Y_OFFSET = 68;
+        public const int DEFAULT_Y_OFFSET = 98;
         public const int DEFAULT_NO_ROWS = 2;
         public const int DEFAULT_NO_COLS = 2;
         public const int DEFAULT_WIDTH = 40;
@@ -80,16 +80,64 @@ namespace MatrixGrid
             bThreadStatus = true;
         }
 
+        private void Toolstripbutton1(object sender, EventArgs e)
+        {
+            CounterThread = new Thread(new ThreadStart(ThreadCounter));
+            CounterThread.Start();
+            bThreadStatus = true;
+        }
+
+        private void Toolstripbutton3(object sender, EventArgs e)
+        {
+            CounterThread.Suspend();
+        }
+
+        private void toolStripMenuItem2a_Click(object sender, EventArgs e)
+        {
+            rc = 4;
+           
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            rc = 5;
+           
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            rc = 6;
+          
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            rc = 7;
+           
+        }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            rc = 8;
+            
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            rc = 9;
+        }
+
+
         public void ThreadCounter()
         {
 
             Graphics Layout = this.CreateGraphics();
             Pen layoutPen = new Pen(Color.Red);
             layoutPen.Width =5;
-            int counter = 2;
+            
             while (counter <= rc)
             {
-                Thread.Sleep(500);
+                Thread.Sleep(1000);
 
                 if (counter != rc)
                 {
@@ -124,7 +172,6 @@ namespace MatrixGrid
             }
 
         }
-       
 
     }
 }
